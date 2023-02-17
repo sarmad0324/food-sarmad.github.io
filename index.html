@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/50f9857bf7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="content-evenly">
+
+        <nav class="bg-gradient-to-r from-rose-900 to-rose-400 flex justify-between p-4 md:inline-block w-full  ">
+            <img src="files/newlogo.jpg" alt="logo" class="float-left w-36">
+            <ul class="hidden md:flex space-x-8 font-sans text-lg font-bold  justify-end pt-1 pr-10 text-white">
+                <li class="nav"><a href="#">Home</a></li>
+                <li class="nav"><a href="#menu">Menu</a></li>
+                <li class="nav"><a href="#prices">Prices</a></li>
+                <li class="nav"><a href="#contact">Contact Us</a></li>
+            </ul>
+            <button class="pr-4 hover:text-white text-lg visible md:hidden"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+        <main>
+            <section class="bg-[url('/files/b.jpg')] bg-cover py-32 sm:py-40 md:py-48">
+                <h1 class="text-center  text-3xl pb-11 font-extrabold text-rose-500 sm:text-4xl md:text-5xl">Welocome To Food Hub</h1>
+                <div class="flex justify-center space-x-4 sm:space-x-6 md:space-x-9">
+                    <button class="p-2  bg-rose-500 text-white rounded-lg hover:bg-rose-900 active:bg-red-600">New
+                        Deals</button>
+                    <button class="p-2 bg-rose-500 text-white rounded-lg hover:bg-rose-900 active:bg-red-600">Order
+                        Now</button>
+                </div>
+            </section>
+
+            <section id="menu">
+                <h1 class="text-center text-4xl font-bold underline p-6 bg-rose-900 text-white">OUR MENU</h1>
+                <!--<hr class="w-80 mx-auto">-->
+                <div class="pt-24 pb-10 md:grid grid-cols-2 gap-8 md:space-y-0 md:px-8 lg:grid lg:grid-cols-3 lg:gap-6">
+
+                    <div class="">
+                        <img src="files/sampl1.jpg" alt="">
+                        <div class="p-6">
+                            <h1 class=" font-mono font-semibold text-3xl">Pizza</h1>
+                            <p class="font-light lines text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Mollitia, repellendus.</p>
+                        </div>
+                       
+                    </div >
+                    <div class="">
+                        <img src="files/sample.jpg" alt="">
+                        <div class="p-6">
+                            <h1 class=" font-mono font-semibold  text-3xl">Burger</h1>
+                            <p class="font-light lines text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Mollitia, repellendus.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="files/sampl3.jpg" alt="">
+                        <div class="p-6">
+                            <h1 class=" font-mono font-semibold text-3xl">Sandwich</h1>
+                            <p class="font-light lines text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Mollitia, repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="prices">
+                <div class="pb-20 space-y-20">
+                    <h1 class="text-center text-4xl font-bold underline p-6 bg-rose-900 text-white">Prices</h1>
+                    <table class="table-fixed  mx-auto w-3/4 border-collapse border  bg-rose-300 border-rose-900 md:h-64 text-white">
+                        <thead class="bg-rose-500">
+                            <tr>
+                                <th class="p-4 text-xl border-rose-900 border md:text-2xl">Items</th>
+                                <th class="p-4 text-xl border-rose-900 border md:text-2xl">Prices</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=" p-2 px-9 text-lg font-medium md:text-xl">Bugers</td>
+                                <td class=" p-2 px-9 text-lg font-medium md:text-xl">$40.00</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 px-9 text-lg font-medium md:text-xl">Sandwich</td>
+                                <td class=" p-2 px-9 text-lg font-medium md:text-xl">$12.00</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 px-9 text-lg font-medium md:text-xl">Pizza</td>
+                                <td class=" p-2 px-9 text-lg font-medium md:text-xl">$25.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="contact" class=" text-black space-y-10 pb-10 ">
+
+                <h1 class="text-center text-4xl font-bold underline p-6 bg-rose-900 text-white">Get In Touch</h1>
+                <div class="block  md:grid grid-cols-3 gap-4 md:mx-20 md:pt-10 ">
+                    <div class="text-3xl md:bg-rose-300 md:pt-14 md:pb-14  md:text-white ">
+                        <i class="fa-solid fa-phone-volume float-left px-6 py-1 "></i>
+                        <h1>Phone :</h1>
+                        <p class="text-base font-thin pt-4  text-center">+92 (324) 7926879</p>
+
+                    </div>
+
+                    <div class="text-3xl md:bg-rose-300 md:pt-14 md:pb-14  md:text-white">
+                        <i class="fa-solid fa-envelope float-left px-6 py-1"></i>
+                        <h1>E-Mail :</h1>
+                        <p class="text-base font-thin pt-4 text-center"> <b> Drop a message at</b> :<br><i> <a
+                                    href="mailto:sarmadirfan78@gmail.com">sarmadirfan78@gmail.com</a></i>
+                        </p>
+                    </div>
+
+                    <div class="text-3xl md:bg-rose-300 md:pt-14 md:pb-14  md:text-white">
+                        <i class="fa-solid fa-location-dot float-left px-6 py-1"></i>
+                        <h1>Address :</h1>
+                        <p class="text-base font-thin pt-4  text-center">14 Street, Karim Block, AIT <br>Lahore,
+                            Pakistan </p>
+                    </div>
+                    
+                </div>
+                <hr class="w-80 mx-auto pb-3">
+            </section>
+        </main>
+
+        <footer class="bg-rose-900 text-white h-auto p-9 md:p-14">
+            <div class=" text-3xl text-center sm:text-4xl md:text-5xl">
+                <a href="https://www.instagram.com/sarmad_.x/" target="_blank"><i
+                        class="fa-brands fa-instagram px-2"></i></a>
+                <a href="https://www.facebook.com/sarmad.irfan.9/" target="_blank"><i
+                        class="fa-brands fa-square-facebook px-2"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github px-2"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin px-2"></i></a>
+            </div>
+            <div class="text-center font-serif pt-10 md:text-xl">
+                &copy; 2023 | Food Hub
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+<!--<div class="m-20"> 
+    <button class="px-3 py-2 bg-green-400 text-white rounded-lg hover:bg-green-600 active:bg-black focus:outline-black ">Click me</button>
+</div>-->
