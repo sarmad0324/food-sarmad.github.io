@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-
-.nav{
-    @apply  hover:text-rose-900;
-}
-
-@tailwind utilities;
